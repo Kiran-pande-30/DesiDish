@@ -12,7 +12,7 @@ const NavBar = () => {
                 <AiOutlineMenu size={25}/>
             </div>
             <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>Yum
-              <span>Eats</span>
+              <span>Eatsi</span>
             </h1>
 
             <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
