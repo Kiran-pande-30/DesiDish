@@ -30,7 +30,22 @@ const NavBar = () => {
         <button className='bg-orange-700 text-white  hidden md:flex items-center py-2 rounded-full'>
           <BsFillCartFill size={20} p-1/>Cart
         </button>
-    </div>
+        {/* comdition on overlay */}
+        {
+          sideNav ? (
+            <div className='bg-black/60 fixed w-full h-screen z-10 top-0 left 0'></div>
+          ): ("")
+        }
+
+        <div className={
+        sideNav 
+          ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300' 
+          : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-200'
+        }
+        ><AiOutlineClose size={25} 
+        onClick={() => setSideNav(!sideNav)} className='absolute right-4 top-4 cursor-pointer'/>
+          </div>        
+      </div>
   )
 }
 
