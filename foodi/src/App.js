@@ -1,3 +1,4 @@
+import { Delivery } from "./components/Delivery";
 import Featured from "./components/Featured";
 import NavBar from "./components/NavBar";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Featured/>
+      <Delivery/>
     </div>
   );
 }
