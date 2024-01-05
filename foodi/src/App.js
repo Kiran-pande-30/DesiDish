@@ -3,6 +3,8 @@ import Featured from "./components/Featured";
 import NavBar from "./components/NavBar";
 import TopPicks from "./components/TopPicks";
 import Meal from "./components/Meal"
+import Categories from "./components/Categories";
+import Newsletter from "./components/Newsletter"
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Delivery/>
       <TopPicks/>
       <Meal/>
+      <Categories/>
+      <Newsletter/>
     </div>
   );
 }

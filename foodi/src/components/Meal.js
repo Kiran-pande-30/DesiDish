@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {ArrowSmRightIcon} from '@heroicons/react/outline'
 
 const mealData = [
@@ -6,6 +6,7 @@ const mealData = [
         id:1, 
         title : 'shawrma',
         price : '$850',
+        category: 'shawrma',
         img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
     },
     {
@@ -83,14 +84,40 @@ const mealData = [
 ]
 
 const Meal = () => {
+    const [foods, setFoods] = useState(mealData);
+    const filterCat = (category) =>{
+        setFoods(
+            mealData.filter((item) =>{
+                return item.category === category;
+            })
+        );
+    };
   return (
     <div className='max-w-[1520px] m-auto px-4 py-12'>
         <h1 className='text-orange-500 font-bold text-2xl text-center py-2'>Meals</h1>
 
+        <div className='flex flex-col lg:flex-row justify-center'>
+            <div className='flex justify-center md:justify-center'>
+                <button 
+                
+                onClick={() => setFoods(mealData)}
+                className='m-1  text-white bg-orange-700  hover:bg-white hover:text-orange-700 border-orange-700'>All</button>
+                <button 
+                onClick={() => filterCat('shawrma')}
+                className='m-1  text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Pizza</button>
+                <button 
+                onClick={() => filterCat(mealData)}
+                className='m-1 text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Chicken</button>
+                <button 
+                onClick={() => filterCat(mealData)}
+                className='m-1  text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Salad</button>
+            </div>
+        </div>
+
         <div className='grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-6 py-4'>
 
             {
-                mealData.map((item) => (
+                foods.map((item) => (
                     <div key={item.id} className='border-none hover:scale-105 duration-300'>
                         <img src={item.img} 
                         alt= {item.image}
@@ -111,6 +138,6 @@ const Meal = () => {
         </div>
     </div>
   )
-}
+};
 
 export default Meal
