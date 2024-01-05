@@ -4,7 +4,8 @@ import NavBar from "./components/NavBar";
 import TopPicks from "./components/TopPicks";
 import Meal from "./components/Meal"
 import Categories from "./components/Categories";
-import Newsletter from "./components/Newsletter"
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Meal/>
       <Categories/>
       <Newsletter/>
+      <Footer/>
     </div>
   );
 }
