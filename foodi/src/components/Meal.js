@@ -4,82 +4,82 @@ import {ArrowSmRightIcon} from '@heroicons/react/outline'
 const mealData = [
     {
         id:1, 
-        title : 'shawrma',
-        price : '$850',
-        category: 'shawrma',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        title : 'Dabangg Thali',
+        category: 'Thali',
+        price : 'Rs. 350',
+        img : 'https://media.istockphoto.com/id/1266097353/photo/vegetarian-food-thali-or-platter-from-maharashtra-india.jpg?s=612x612&w=0&k=20&c=lPaUODaRBzpUPcQrYBcwjEhXElmCspoF-EBOIT9NGNE='
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:2, 
+        title : 'Bahubaali Thali',
+        category: 'Thali',
+        price : 'Rs. 230',
+        img : 'https://thumbs.dreamstime.com/b/indian-bahubali-thali-available-maharashtra-city-pune-biggest-veg-thali-having-various-type-indian-cuisine-indian-bahubali-168206531.jpg'
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:3, 
+        title : 'Thali',
+        category: 'Thali',
+        price : 'Rs. 200',
+        img : 'https://media.istockphoto.com/id/1158623408/photo/indian-hindu-veg-thali-food-platter-selective-focus.webp?b=1&s=170667a&w=0&k=20&c=13bRDToMDNZNSNAaMkKdLoBfsHffHQi5b_pNis8LtcI='
     },
     {
-        id:1, 
-        title : 'shawrma',
+        id:4, 
+        title : 'Matar Paneer',
+        category: 'Paneer',
         price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        img : 'https://media.istockphoto.com/id/1077980738/photo/green-peas-or-matar-paneer-curry-recipe-served-in-a-bowl-selective-focus.webp?b=1&s=170667a&w=0&k=20&c=L7vx8uFS44hB1fvvTEYZ3-yrvCIzCasrbcJwYunzIjE='
     },
     {
-        id:1, 
-        title : 'shawrma',
+        id:5, 
+        title : 'Punjabi Thali',
+        category: 'Thali',
         price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        img : 'https://ssl.bigstockimages.com/6/2/1/large2/126974579.jpg'
     },
     {
-        id:1, 
-        title : 'shawrma',
+        id:6, 
+        title : 'Shahi Paneer',
+        category: 'Paneer',
         price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        img: 'https://media.istockphoto.com/id/1887477929/photo/paneer-hyderabadi.webp?b=1&s=170667a&w=0&k=20&c=GWJBhVoPqAvfJJTJAwRRNNXm7FENccLLs_7wgB4_Hm8='
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:7, 
+        title : 'Kadhai Paneer',
+        category: 'Paneer',
+        price : 'Rs. 120',
+        img: 'https://i.pinimg.com/736x/5c/31/d2/5c31d209696ff26ac0def1b679075f47.jpg'
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:8 ,
+        title : 'Butter Masala',
+        category: 'Paneer',
+        price : 'Rs 240',
+        img: 'https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5-500x500.jpg'
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:9,
+        title : 'Paneer Tikka',
+        category: 'Paneer',
+        price : 'Rs. 280',
+        img: 'https://media.istockphoto.com/id/1389160681/photo/chilli-mushroom-indian-snack-food.webp?b=1&s=170667a&w=0&k=20&c=oqLPJp1FA91qWk8AZzrNzVA5V2X1W2aLkWMxeuFaDx8='
+    },
+
+    //New
+    {
+        id:10,
+        title : 'Veg Biryani',
+        category: 'Biryani',
+        price : 'Rs. 350',
+        img: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmlyeWFuaXxlbnwwfHwwfHx8MA%3D%3D'
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
-    },
-    {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
-    },
-    {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
-    },
-    {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:11,
+        title : 'Biryani',
+        category: 'Biryani',
+        price : 'Rs. 230',
+        img: 'https://images.unsplash.com/photo-1642821373181-696a54913e93?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnJpeWFuaXxlbnwwfHwwfHx8MA%3D%3D'
     }
 ]
 
@@ -103,14 +103,14 @@ const Meal = () => {
                 onClick={() => setFoods(mealData)}
                 className='m-1  text-white bg-orange-700  hover:bg-white hover:text-orange-700 border-orange-700'>All</button>
                 <button 
-                onClick={() => filterCat('shawrma')}
-                className='m-1  text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Pizza</button>
+                onClick={() => filterCat('Thali')}
+                className='m-1  text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Thali</button>
                 <button 
-                onClick={() => filterCat(mealData)}
-                className='m-1 text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Chicken</button>
+                onClick={() => filterCat('Paneer')}
+                className='m-1 text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Paneer</button>
                 <button 
-                onClick={() => filterCat(mealData)}
-                className='m-1  text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Salad</button>
+                onClick={() => filterCat('Biryani')}
+                className='m-1  text-white bg-orange-700 hover:bg-white hover:text-orange-700 border-orange-700'>Biryani</button>
             </div>
         </div>
 

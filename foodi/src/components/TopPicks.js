@@ -5,89 +5,65 @@ import '@splidejs/react-splide/css';
 const topPicks = [
     {
         id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        title : 'Puran Poli',
+        price : 'Rs. 60',
+        img : 'https://t4.ftcdn.net/jpg/02/70/36/75/360_F_270367565_FB3Wvmm3exlB4gh5YcRsAzqTlmSK0Px5.jpg'
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:2, 
+        title : 'Vada Pav',
+        price : 'Rs. 30',
+        img : 'https://media.istockphoto.com/id/537817390/photo/vada-pav-or-vada-pav.webp?b=1&s=170667a&w=0&k=20&c=i_bt2Arncv4nGdAVJkvza7br3CjHHfkrnEE6VenmNBg='
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:3, 
+        title : 'Thali',
+        price : 'Rs. 200',
+        img : 'https://media.istockphoto.com/id/1158623408/photo/indian-hindu-veg-thali-food-platter-selective-focus.webp?b=1&s=170667a&w=0&k=20&c=13bRDToMDNZNSNAaMkKdLoBfsHffHQi5b_pNis8LtcI='
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:4, 
+        title : 'Misal Pav',
+        price : 'Rs. 140',
+        img : 'https://media.istockphoto.com/id/1062088258/photo/misal-a-maharashtrian-dish.webp?b=1&s=170667a&w=0&k=20&c=n0BEbqDzSuJvozBMv5qnf4wQOifoXQaH6LHyiUcWURI='
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:5, 
+        title : 'Sabji Thali',
+        price : 'Rs. 350',
+        img : 'https://media.istockphoto.com/id/1266097353/photo/vegetarian-food-thali-or-platter-from-maharashtra-india.jpg?s=612x612&w=0&k=20&c=lPaUODaRBzpUPcQrYBcwjEhXElmCspoF-EBOIT9NGNE='
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:6, 
+        title : 'Upwas Thali',
+        price : 'Rs. 230',
+        img : 'https://www.shutterstock.com/image-photo/navratri-upwas-thali-fasting-food-260nw-1518092819.jpg'
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:7, 
+        title : 'Till Ladu',
+        price : 'Rs. 90',
+        img : 'https://images.unsplash.com/photo-1610508500445-a4592435e27e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1haGFyYXNodHJpYW4lMjBmb29kfGVufDB8fDB8fHww'
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:8, 
+        title : 'Pizza',
+        price : 'Rs. 450',
+        img : 'https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1haGFyYXNodHJpYW4lMjBmb29kfGVufDB8fDB8fHww'
     },
     {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
-    },
-    {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
-    },
-    {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
-    },
-    {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
-    },
-    {
-        id:1, 
-        title : 'shawrma',
-        price : '$850',
-        img : 'https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg'
+        id:9, 
+        title : 'Dahi Wada',
+        price : 'Rs. 80',
+        img : 'https://images.unsplash.com/photo-1680764955303-81618ecb67b5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHZhZGElMjBwYXZ8ZW58MHx8MHx8fDA%3D'
     }
 ]
 
 const TopPicks = () => {
   return (
     <>
-    <h1 className='text-orange-500 font-bold text-2xl text-center py-2'>Top sPicks</h1>
-    <div className='hidden lg:flex max-w[1520px] m-auto py-2 px-a2'>
+    <h1 className='text-orange-500 font-bold text-2xl text-center py-2'>Snacks</h1>
+    <div className='hidden lg:flex max-w[1520px] m-auto py-2 px-2'>
 
         <Splide options={{perPage: 4, gap: "0.5rem", drag: 'free', arrows: false}}>
         {

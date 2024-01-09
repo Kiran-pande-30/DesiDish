@@ -10,9 +10,9 @@ export const Delivery = () => {
 
             <div className='flex flex-col justify-center m-4'>
                 <p className='text-[#00df9a] font-bold' >Get The App</p>
-                <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Limitless Convenience on-demand</h1>
+                <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Delectable Delights</h1>
                 <p className='relative'>
-                breaking the tranquil hush that enveloped the sleepy town. The cobblestone streets, worn by the footsteps of generations, bore witness to the passage of time. Wisps of morning mist clung to the edges of ancient buildings, casting an ethereal aura over the scene. A solitary bicycle leaned against a weathered lamppost, its tires whispering tales of distant journeys. The aroma of freshly brewed coffee wafted from a nearby cafe, tempting passersby with promises of warmth and awakening. Nature's canvas painted the sky in hues of pastel pink and gold, heralding the promise of a new day filled with untold possibilities.
+                Welcome to <span className='font-bold text-orange-600'>Desi Dish</span> your portal to the vibrant world of Indian cuisine. Indulge in the rich tapestry of flavors with our curated menu featuring authentic Indian dishes. From aromatic biryanis to savory curries, each dish is a culinary masterpiece crafted with passion. Experience the essence of India in every bite, conveniently ordered from the comfort of your home. Explore our menu, savor the extraordinary, and let Desi Dish bring the deliciousness of Indian cuisine to your doorstep.
                 </p>
                 <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
             </div>
