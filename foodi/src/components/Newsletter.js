@@ -11,8 +11,8 @@ const Newsletter = () => {
             </div>
 
             <div className='my-4'>
-                <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
-                    <input className='p-3 flex w-full rounded-md text-black' type='email' placeholder='email'/>
+                <div className='flex flex-col sm:flex-row items-center justify-between w-full lg:w-full'>
+                    <input className='p-3 flex w-full rounded-md text-black' type='email' placeholder='Email'/>
 
                     <button className='bg-[#00df9a] text-white rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3 border-none'>
                         Notify Me
@@ -21,7 +21,7 @@ const Newsletter = () => {
                 <p>we are concerned about the security of your data, Read{""}</p>
                 <span className='text-[#00df9a]'>Privacy Policy</span>
             </div>
-            <hr className='my-8 bg-gray-700 border-1'></hr>
+            <hr className='my-8 bg-gray-700 border-1 lg:hidden'></hr>
         </div>
     </div>
   )

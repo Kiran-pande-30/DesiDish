@@ -27,42 +27,42 @@ const mealData = [
         id:4, 
         title : 'Matar Paneer',
         category: 'Paneer',
-        price : '$850',
+        price : 'Rs. 330',
         img : 'https://media.istockphoto.com/id/1077980738/photo/green-peas-or-matar-paneer-curry-recipe-served-in-a-bowl-selective-focus.webp?b=1&s=170667a&w=0&k=20&c=L7vx8uFS44hB1fvvTEYZ3-yrvCIzCasrbcJwYunzIjE='
     },
     {
         id:5, 
         title : 'Punjabi Thali',
         category: 'Thali',
-        price : '$850',
+        price : 'Rs. 280',
         img : 'https://ssl.bigstockimages.com/6/2/1/large2/126974579.jpg'
     },
     {
         id:6, 
         title : 'Shahi Paneer',
         category: 'Paneer',
-        price : '$850',
+        price : 'Rs. 220',
         img: 'https://media.istockphoto.com/id/1887477929/photo/paneer-hyderabadi.webp?b=1&s=170667a&w=0&k=20&c=GWJBhVoPqAvfJJTJAwRRNNXm7FENccLLs_7wgB4_Hm8='
     },
     {
         id:7, 
         title : 'Kadhai Paneer',
         category: 'Paneer',
-        price : 'Rs. 120',
+        price : 'Rs. 220',
         img: 'https://i.pinimg.com/736x/5c/31/d2/5c31d209696ff26ac0def1b679075f47.jpg'
     },
     {
         id:8 ,
         title : 'Butter Masala',
         category: 'Paneer',
-        price : 'Rs 240',
+        price : 'Rs 260',
         img: 'https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5-500x500.jpg'
     },
     {
         id:9,
         title : 'Paneer Tikka',
         category: 'Paneer',
-        price : 'Rs. 280',
+        price : 'Rs. 260',
         img: 'https://media.istockphoto.com/id/1389160681/photo/chilli-mushroom-indian-snack-food.webp?b=1&s=170667a&w=0&k=20&c=oqLPJp1FA91qWk8AZzrNzVA5V2X1W2aLkWMxeuFaDx8='
     },
 

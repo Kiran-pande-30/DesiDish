@@ -17,37 +17,28 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='lg:col-span-2 flex justify-between mt-6'>
+            {/* <div className='lg:col-span-2 flex justify-between mt-6'>
                 <div>
                     <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
                     <ul>
-                        <l1 className='py-2 text-sm'>New York</l1>
-                        <l1 className='py-2 text-sm'>USA</l1>
                         <l1 className='py-2 text-sm'>India</l1>
-                        <l1 className='py-2 text-sm'>Canada</l1>
+                    </ul>
+                </div> */}
+
+                {/* <div>
+                    <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
+                    <ul>
+                        <l1 className='py-2 text-sm'>India</l1>
                     </ul>
                 </div>
 
                 <div>
                     <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
                     <ul>
-                        <l1 className='py-2 text-sm'>New York</l1>
-                        <l1 className='py-2 text-sm'>USA</l1>
                         <l1 className='py-2 text-sm'>India</l1>
-                        <l1 className='py-2 text-sm'>Canada</l1>
                     </ul>
-                </div>
-
-                <div>
-                    <h6 className='font-medium text-[#9b9b9b]'>Location</h6>
-                    <ul>
-                        <l1 className='py-2 text-sm'>New York</l1>
-                        <l1 className='py-2 text-sm'>USA</l1>
-                        <l1 className='py-2 text-sm'>India</l1>
-                        <l1 className='py-2 text-sm'>Canada</l1>
-                    </ul>
-                </div>
-            </div>
+                </div> */}
+            {/* </div> */}
         </div>
     </div>
   )
